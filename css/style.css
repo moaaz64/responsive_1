@@ -115,20 +115,30 @@ font-weight: 500;
         justify-content: center;
         translate: 0px -40px;
     }
+    .box_1 .components_2 img{
+        width: 370px;
+    }
+    .box_1 .components_1 p{
+        font-size: 19px;
+        text-align: center;
+    }
     .carousel-control-prev{
-        translate: 50px 0px;
+        translate: 60px 0px;
     }
     .carousel-control-next{
-       translate: -50px 0px;
+       translate: -60px 0px;
     }
     .box_1 .components_1 .button_1{
         margin-bottom: 200px;
+       margin-left: 30%;
+       margin-top: -200px;
        }
     .box{
         height: 150vh;
     }
     .box_1 .components_1 h1{
              font-size: 40px;
+             text-align: center;
         }
         .box_1 .components_2 img{
             width: 55vh;
