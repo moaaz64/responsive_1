@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body{
+  overflow-x: hidden;
+}
+
+/* Section_1 And NavBar */
+
+.box{
+    background-color: rgb(231, 230, 230);
+    height: 110vh;
+    width: 100%;
+}
+
+/* navbar */
+
+.navbar .Closex{
+    list-style: none;
+}
+.navbar .close{
+    display: none;
+}
+.navbar .navbar-toggler-icon{
+    color: black;
+}
+.navbar .nav-item a{
+    color: black;
+}
+.navbar .nav-item .color{
+color: rgb(158, 157, 157);
+}
+.navbar .icons .nav-item{
+    margin: 10px;
+}
+.navbar .fa-bars{
+    width: 30px;
+}
+
+/* carouselExampleIndicators */
+
+.carousel-control-prev{
+    text-decoration: none;
+}
+.carousel-control-next{
+    text-decoration: none;
+}
+.fa-arrow-right{
+    color: black;
+    translate: 70px;
+    font-size: 25px;
+}
+.fa-arrow-left{
+    color: black;
+    translate: -70px;
+    font-size: 25px;
+}
+
+/* Section_1 */
+
+.box_1{
+    padding: 60px;
+  justify-content: space-between;
+  display: flex;
+  translate: 0px 90px;
+}
+.box_1 .components_1{
+translate: 20px 20px;
+}
+.box_1 .components_1 h1{
+font-size: 50px;
+font-weight: 500;
+}
+.box_1 .components_1 p{
+    font-size: 22px;
+    translate: 0px 30px;
+}
+.box_1 .components_1 .button_1{
+    width: 200px;
+    height: 60px;
+    translate: 0px 63px;
+}
+.box_1 .components_2 img{
+     width: 55vh;
+     translate: 0px -20px; 
+}
+
+/* Section_2 */
+
+.row .AS{
+    background-color: antiquewhite;
+}
+
+/* Responsive */
+
+@media screen and (max-width:1200px){
+    .box_1 .components_2 img{
+        width: 390px;
+        translate: 0px 20px;
+        position: relative;
+    }
+    .box_1 .components_1 .button_1{
+     margin-bottom: 500px;
+    }
+}
+@media screen and (max-width:920px){
+    .box_1{
+        display: grid;
+        justify-content: center;
+        translate: 0px -40px;
+    }
+    .carousel-control-prev{
+        translate: 50px 0px;
+    }
+    .carousel-control-next{
+       translate: -50px 0px;
+    }
+    .box_1 .components_1 .button_1{
+        margin-bottom: 200px;
+       }
+    .box{
+        height: 150vh;
+    }
+    .box_1 .components_1 h1{
+             font-size: 40px;
+        }
+        .box_1 .components_2 img{
+            width: 55vh;
+            translate: 10px -30px; 
+       }
+}
+@media screen and (max-width:500px){
+    .box_1 .components_1 p{
+        translate: -20px;
+    }
+}
+@media screen and (max-width:1000px){
+      .navbar .nm{
+    display: none;
+      }
+       .navbar .close{
+    display: block;
+         }
+}
